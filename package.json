@@ -1,13 +1,12 @@
 {
-  "name": "filter_complex",
-  "version": "0.1.0",
+  "name": "filter-complex-graph",
+  "version": "0.1.1",
   "description": "filter complex generator",
   "repository": "https://github.com/hellozimi/filter-complex",
   "author": "Simon Andersson",
   "license": "MIT",
-  "private": true,
   "main": "./lib/cjs/index.js",
-  "types": "./lib/cjs/main.d.ts",
+  "types": "./lib/cjs/index.d.ts",
   "module": "./lib/esm/index.js",
   "files": [
     "lib/"
