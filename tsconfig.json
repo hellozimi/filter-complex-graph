@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "build",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "lib": ["es5", "es6", "es2018", "esnext", "esnext.asynciterable"],
+    "typeRoots": ["./node_modules/@types"],
+    "outDir": "./lib/esm",
+    "declaration": true
+  },
+  "exclude": ["node_modules", "lib"],
+  "include": ["src/**/*.ts"]
+}

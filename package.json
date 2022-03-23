@@ -1,0 +1,25 @@
+{
+  "name": "filter_complex",
+  "version": "0.1.0",
+  "description": "filter complex generator",
+  "repository": "https://github.com/hellozimi/filter-complex",
+  "author": "Simon Andersson",
+  "license": "MIT",
+  "private": true,
+  "main": "./lib/cjs/index.js",
+  "types": "./lib/cjs/main.d.ts",
+  "module": "./lib/esm/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "prepublishOnly": "yarn tsc",
+    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^17.0.22",
+    "typescript": "^4.6.2",
+    "ts-node": "^10.7.0"
+  }
+}
