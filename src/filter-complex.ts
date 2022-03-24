@@ -4,7 +4,7 @@
  */
 export type FilterOptionValue = string | number
 export type Filter = {
-  name: FilterOptionValue
+  name: string
   options?: Record<string, FilterOptionValue> | FilterOptionValue
 }
 
